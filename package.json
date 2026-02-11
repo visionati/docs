@@ -1,0 +1,29 @@
+{
+  "name": "visionati-docs",
+  "version": "1.0.0",
+  "description": "Visionati Documentation",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && npx pagefind --site dist",
+    "preview": "astro preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visionati/slate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/visionati/slate/issues"
+  },
+  "homepage": "https://github.com/visionati/slate#readme",
+  "dependencies": {
+    "@astrojs/starlight": "^0.37.6",
+    "astro": "^5.17.1",
+    "pagefind": "^1.4.0"
+  }
+}

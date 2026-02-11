@@ -1,0 +1,73 @@
+---
+title: Learn About Visionati
+description: Analyze images and videos with multiple AI services through a single API.
+template: splash
+hero:
+  tagline: Send one request, get results from multiple AI vision services. Descriptions, tags, faces, colors, OCR, and content moderation from a single integration.
+  image:
+    file: ../../assets/images/hero-swirl.png
+    alt: Visionati color swirl
+  actions:
+    - text: Get Started
+      link: /getting-started/
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## Products
+
+<CardGrid>
+  <LinkCard
+    title="API Reference"
+    description="Integrate image and video analysis into your app. One endpoint, multiple AI backends, structured JSON responses."
+    href="/api/"
+  />
+  <LinkCard
+    title="Browser Extension"
+    description="Analyze any image you can see in Chrome or Firefox. Right-click, scan, get results."
+    href="/browser-extension/"
+  />
+  <LinkCard
+    title="Content Analyzer"
+    description="Upload images or paste URLs in a web interface. No code required."
+    href="/content-analyzer/"
+  />
+</CardGrid>
+
+## How It Works
+
+Every AI model sees something different. Google Vision might catch the landmark but miss the mood. Claude nails the description but doesn't extract text. Clarifai tags objects that others overlook.
+
+Visionati runs your image through multiple services and returns everything in one response. You pick the [backends](/reference/backends/) and [features](/reference/features/) you want, and only pay for what you use.
+
+## Capabilities
+
+<CardGrid>
+  <Card title="Multi-Model Descriptions" icon="document">
+    Get descriptions from Claude, Gemini, Grok, OpenAI, and more. Each model brings a different perspective.
+  </Card>
+  <Card title="Computer Vision" icon="magnifier">
+    Tags, face detection, color extraction, OCR, brand detection, and NSFW scoring from Google Vision, Clarifai, Rekognition, and Imagga.
+  </Card>
+  <Card title="11 Built-in Roles" icon="list-format">
+    From ecommerce product copy to real estate listings to art criticism. Or write your own prompt.
+  </Card>
+  <Card title="160 Languages" icon="translate">
+    Get descriptions in Japanese, Spanish, Arabic, Hindi, or any of 160 supported languages.
+  </Card>
+</CardGrid>
+
+## Reference
+
+Detailed specs for everything the platform supports.
+
+<CardGrid>
+  <LinkCard title="AI Backends" href="/reference/backends/" description="Available services and per-feature costs." />
+  <LinkCard title="Features" href="/reference/features/" description="Descriptions, tags, colors, faces, OCR, NSFW, and brands." />
+  <LinkCard title="Roles" href="/reference/roles/" description="Predefined personas and custom prompts." />
+  <LinkCard title="Credits" href="/reference/credits/" description="How pricing works." />
+  <LinkCard title="Video Processing" href="/reference/video-processing/" description="Frame extraction from URLs and uploaded files." />
+  <LinkCard title="Languages" href="/reference/languages/" description="All 160 supported output languages." />
+</CardGrid>

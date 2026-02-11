@@ -1,0 +1,75 @@
+/* Dark mode colors. */
+:root {
+	--sl-color-accent-low: #20242a;
+	--sl-color-accent: #5d6b7e;
+	--sl-color-accent-high: #c4c9d0;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #eceef2;
+	--sl-color-gray-2: #c6c8ce;
+	--sl-color-gray-3: #a0a4ae;
+	--sl-color-gray-4: #545861;
+	--sl-color-gray-5: #353841;
+	--sl-color-gray-6: #24272f;
+	--sl-color-black: #17181c;
+}
+/* Light mode colors. */
+:root[data-theme='light'] {
+	--sl-color-accent-low: #d3d7dd;
+	--sl-color-accent: #424f62;
+	--sl-color-accent-high: #2d333b;
+	--sl-color-white: #17181c;
+	--sl-color-gray-1: #24272f;
+	--sl-color-gray-2: #353841;
+	--sl-color-gray-3: #545861;
+	--sl-color-gray-4: #888b96;
+	--sl-color-gray-5: #c0c2c7;
+	--sl-color-gray-6: #eceef2;
+	--sl-color-gray-7: #f5f6f8;
+	--sl-color-black: #ffffff;
+}
+
+/* Headings: Barlow */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Barlow', sans-serif;
+}
+
+/* Squared corners on content elements */
+.card,
+.sl-link-card,
+.starlight-aside,
+pre,
+code,
+details,
+summary,
+.action.primary,
+.action.secondary,
+.action.minimal,
+nav a,
+.sidebar-content a,
+[aria-current="page"],
+.pagination-links a {
+	border-radius: 0 !important;
+}
+
+/* Fix padding on active sidebar link after removing border-radius */
+[aria-current="page"] {
+	padding-inline: 0.5rem !important;
+}
+
+/* Logo sizing in the nav */
+.site-title img {
+  height: 24px;
+  width: auto;
+}
+
+/* Subtle border on content images for light mode visibility */
+.sl-markdown-content img {
+  border: 1px solid #cbd5e0;
+}
+
+/* Cap tall product screenshots */
+.sl-markdown-content img[alt="Content Analyzer interface"],
+.sl-markdown-content img[alt="Browser Extension popup showing analysis results"] {
+  max-width: 350px;
+  height: auto;
+}
