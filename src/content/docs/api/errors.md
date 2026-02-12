@@ -17,7 +17,7 @@ The Visionati API returns errors as JSON with an `error` key. Always check for t
 |-------|-------------|
 | `Access denied.` | Invalid or missing API key. |
 | `Access denied. Email not verified.` | Your account email has not been verified. Check your inbox. |
-| `Access denied. Purchase credits on the profile page.` | Your account does not have API access. Purchase credits first. |
+| `Access denied. Purchase credits on the account page.` | Your account does not have API access. Purchase credits first. |
 | `File/URL params are required.` | No `url` or `file` parameter was provided. |
 | `File too large. Max 20MB.` | An uploaded file exceeds the 20MB size limit. |
 | `Max request length exceeded.` | The request query string exceeds 2048 characters. Use POST with JSON for large requests. |

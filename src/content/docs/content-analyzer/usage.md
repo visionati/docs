@@ -36,7 +36,7 @@ Toggle the prompt field to enter your own instructions. This overrides the selec
 
 ## Configuring Backends
 
-AI backends are configured in your profile settings, not at analysis time. Click the edit button on your profile to enable or disable specific services.
+AI backends are configured in your account settings, not at analysis time. Click the edit button on your account to enable or disable specific services.
 
 See [AI Backends](/reference/backends/) for the full list.
 
@@ -44,5 +44,5 @@ See [AI Backends](/reference/backends/) for the full list.
 
 - Up to **5 images** per analysis
 - **1 frame** extracted for video
-- Models configured in **profile settings**
+- Models configured in **account settings**
 - Role and prompt selected **at analysis time**

@@ -68,8 +68,8 @@ nav a,
 }
 
 /* Cap tall product screenshots */
-.sl-markdown-content img[alt="Content Analyzer interface"],
 .sl-markdown-content img[alt="Browser Extension popup showing analysis results"] {
   max-width: 350px;
   height: auto;
 }
+

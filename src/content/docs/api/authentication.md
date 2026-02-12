@@ -34,4 +34,4 @@ Authorization: Token YOUR_API_KEY
 
 ## Getting Your API Key
 
-Your API key is on your account dashboard. See [Getting Started](/getting-started/) for full setup steps.
+Your API key is on your account page. See [Getting Started](/getting-started/) for full setup steps.
