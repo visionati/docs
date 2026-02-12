@@ -42,7 +42,7 @@ All settings are configured in the extension options page. They apply to every s
 | **Role** | Default description persona (General, Ecommerce, Realtor, etc). See [Roles](/reference/roles/). |
 | **Language** | Output language for descriptions. See [Supported Languages](/reference/languages/). |
 | **Custom Prompt** | Your own instructions that override the selected role. |
-| **Backends** | Which AI services to use. Split into Description Backends (LLMs) and Tagging/NSFW Backends (computer vision). Recommended services are marked with an asterisk. |
+| **Backends** | Which AI services to use. Split into Description Backends (LLMs) and Detection Backends (computer vision). Recommended services are marked with an asterisk. |
 
 ## Default Backends
 
