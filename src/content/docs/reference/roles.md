@@ -12,6 +12,7 @@ Roles control how LLM backends describe your images. Each role uses a specialize
 | Role | Description |
 |------|-------------|
 | `general` | The default. Standard image descriptions covering essential elements and overall scene. |
+| `alttext` | Concise, accessibility-focused alt text. A short phrase or single sentence describing essential content. |
 | `artist` | Artistic analysis: composition, color palette, mood, and techniques. |
 | `caption` | Short, concise captions. |
 | `comedian` | Witty, humorous descriptions. |
