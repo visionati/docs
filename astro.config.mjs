@@ -59,6 +59,10 @@ export default defineConfig({
           autogenerate: { directory: 'content-analyzer' },
         },
         {
+          label: 'WordPress Plugin',
+          autogenerate: { directory: 'wordpress' },
+        },
+        {
           label: 'Reference',
           autogenerate: { directory: 'reference' },
         },

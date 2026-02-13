@@ -46,3 +46,4 @@ Pick the product that fits your use case:
 - **[API Reference](/api/)**: Integrate image and video analysis into your app
 - **[Browser Extension](/browser-extension/)**: Analyze any image you see while browsing
 - **[Content Analyzer](/content-analyzer/)**: Upload images and get results in a web interface
+- **[WordPress Plugin](/wordpress/)**: Generate alt text, captions, and product descriptions for your Media Library
