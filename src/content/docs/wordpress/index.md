@@ -7,42 +7,42 @@ sidebar:
 
 The Visionati WordPress plugin generates alt text, captions, and descriptions for every image in your Media Library, powered by your choice of AI model.
 
+![Visionati Bulk Generate page with progress bar and results log](../../../assets/images/wp-screenshot-3.webp)
+
 ## Why Use It
 
-Most WordPress sites have hundreds of images with no alt text at all. Screen readers depend on alt text to describe images to visually impaired users. Search engines use it to understand and index your images. Missing alt text hurts both accessibility compliance and SEO rankings.
+Most WordPress sites have hundreds of images with no alt text. Screen readers skip them. Search engines can't index them. Missing alt text hurts both accessibility and SEO.
 
-Manually writing alt text for an entire media library is tedious. Visionati generates it from the image itself, using the AI model you choose: Claude (Anthropic), Gemini (Google), OpenAI, Grok (xAI), or others. One click per image, or bulk generate for your whole library.
+Writing it by hand for an entire library is tedious. Visionati generates it from the image itself, using the AI model you choose: Claude (Anthropic), Gemini (Google), OpenAI, Grok (xAI), or others. One click per image, or bulk generate for your whole library.
 
 ## What You Get
 
-- **Alt text**: Concise, accessibility-focused descriptions using the dedicated Alt Text role
-- **Captions**: Short text suitable for image captions
-- **Descriptions**: Longer descriptions for the Media Library description field
-- **WooCommerce product descriptions**: Short and long product descriptions generated from the featured image, with product name, categories, and attributes for context
+- **Alt text**: Short, accessibility-focused descriptions ready for screen readers and search engines.
+- **Captions**: Brief text for displaying below images in posts and pages.
+- **Descriptions**: Longer, detailed descriptions for the Media Library description field.
+- **WooCommerce product descriptions**: Short and long product descriptions generated from the featured image, with product name, categories, attributes, and price included for context.
 
-Each field uses the right AI role automatically. Alt text gets the Alt Text role (concise, no "image of" preamble). Captions get the Caption role. WooCommerce gets the Ecommerce role. You can override any of these in the settings.
+Each field uses the right AI persona automatically. You can override any of these in the settings.
 
 ## Key Features
 
-- **Preview before apply**: Generate a description, review it, then Apply or Discard. No surprises, no wasted changes.
-- **Per-field generation**: Separate Alt Text, Caption, and Description buttons on every image in the Media Library. Each runs independently.
-- **Bulk generate**: Process your entire library from a dedicated page under Media, with confirmation dialog, progress tracking, and a results log
-- **Auto-generate on upload**: New images get alt text, captions, or descriptions immediately (configurable per field)
-- **Pick your AI model**: Choose from Claude, Gemini, OpenAI, Grok, Jina AI, LLaVA, or BakLLaVA. One global default, with optional per-context overrides. See [AI Backends](/reference/backends/).
-- **Per-context model overrides**: Use a different model for any context. Gemini as the default for fast media fields, Claude for WooCommerce product descriptions.
-- **Context-aware roles**: Each field uses the most appropriate role by default (Alt Text, Caption, General, Ecommerce). Customize per context in the settings.
-- **Custom prompts**: Write your own instructions for any context, overriding the selected role
-- **160+ languages**: All AI-generated text respects your language setting. See [Supported Languages](/reference/languages/).
-- **WooCommerce integration**: Generate short and long product descriptions from featured images. Apply each description independently or both at once. Bulk action on the Products list.
+- **Preview before apply**: Generate, review, then Apply or Discard. Nothing is saved until you say so.
+- **Per-field buttons**: Separate Alt Text, Caption, and Description buttons on every image. Each runs independently.
+- **Bulk generate**: Process your entire library from a dedicated page under Media. Real-time progress, stop and resume, automatic detection if credits run out.
+- **Auto-generate on upload**: New images get fields filled immediately. Choose which fields. Multiple fields run in parallel, so three take the same time as one.
+- **7 AI models**: Claude, Gemini, OpenAI, Grok, Jina AI, LLaVA, and BakLLaVA. Set one global default, then override for specific fields (e.g. Gemini for alt text, Claude for product descriptions). See [AI Backends](/reference/backends/).
+- **12 built-in roles and custom prompts**: Alt Text, Caption, Ecommerce, General, and 8 more. Or write your own prompt for any field. See [Roles](/reference/roles/).
+- **160+ languages**: Set your language once and every generation uses it. See [Supported Languages](/reference/languages/).
+- **WooCommerce integration**: Generate short and long product descriptions from featured images. Filter bulk runs by product status. Apply descriptions independently or both at once. See [WooCommerce](/wordpress/woocommerce/).
 - **Debug mode**: Toggle in settings, traces to the browser console (F12). No server access needed.
 
 ## Who It's For
 
-- **Site owners**: Fix accessibility and SEO gaps across your entire media library without writing a word
-- **Content teams**: Generate alt text and captions as part of the publishing workflow, not as an afterthought
-- **Ecommerce stores**: Turn product photos into product descriptions. WooCommerce integration handles short and long descriptions with product context.
-- **Agencies**: Bulk generate alt text for client sites. Configure once, run across the library.
-- **Multilingual sites**: Generate alt text in any of 160+ supported languages
+- **Site owners**: Fix every missing alt text field across your library without writing a word.
+- **Content teams**: Generate alt text and captions during publishing, not as a cleanup project months later.
+- **Ecommerce stores**: Turn product photos into short and long descriptions with real product context.
+- **Agencies**: Configure once, bulk generate across the whole library. Done.
+- **Multilingual sites**: Generate in any of 160+ supported languages.
 
 ## Requirements
 
@@ -51,8 +51,8 @@ Each field uses the right AI role automatically. Alt text gets the Alt Text role
 - A Visionati API key ([sign up](https://api.visionati.com/signup))
 - WooCommerce (optional, for product description features)
 
-## How It Works
+Visionati uses a credit-based system. Cost depends on which AI model you choose. See [Credit System](/reference/credits/) for details.
 
-Images are sent securely as base64 data directly from your server. The Visionati API never needs to reach back to your WordPress site. This works everywhere: localhost, staging sites, password-protected sites, and private networks.
+## Get the Plugin
 
-Visionati uses a credit-based system. See [Credit System](/reference/credits/) for details.
+Download from <a href="https://github.com/visionati/visionati-wordpress" target="_blank" rel="noopener">GitHub</a>. Click **Code → Download ZIP**, then install via **Plugins → Add New Plugin → Upload Plugin** in WordPress. See [Usage](/wordpress/usage/) for step-by-step instructions.
