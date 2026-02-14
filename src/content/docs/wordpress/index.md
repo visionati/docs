@@ -24,7 +24,8 @@ Each field uses the right AI role automatically. Alt text gets the Alt Text role
 
 ## Key Features
 
-- **Per-field generation**: Separate Alt Text, Caption, and Description buttons on every image in the Media Library — all three run independently and in parallel
+- **Preview before apply**: Generate a description, review it, then Apply or Discard. No surprises, no wasted changes.
+- **Per-field generation**: Separate Alt Text, Caption, and Description buttons on every image in the Media Library. Each runs independently.
 - **Bulk generate**: Process your entire library from a dedicated page under Media, with confirmation dialog, progress tracking, and a results log
 - **Auto-generate on upload**: New images get alt text, captions, or descriptions immediately (configurable per field)
 - **Pick your AI model**: Choose from Claude, Gemini, OpenAI, Grok, Jina AI, LLaVA, or BakLLaVA. One global default, with optional per-context overrides. See [AI Backends](/reference/backends/).
@@ -32,7 +33,8 @@ Each field uses the right AI role automatically. Alt text gets the Alt Text role
 - **Context-aware roles**: Each field uses the most appropriate role by default (Alt Text, Caption, General, Ecommerce). Customize per context in the settings.
 - **Custom prompts**: Write your own instructions for any context, overriding the selected role
 - **160+ languages**: All AI-generated text respects your language setting. See [Supported Languages](/reference/languages/).
-- **WooCommerce integration**: Generate short and long product descriptions from featured images, with product context baked into the prompt. Bulk action on the Products list.
+- **WooCommerce integration**: Generate short and long product descriptions from featured images. Apply each description independently or both at once. Bulk action on the Products list.
+- **Debug mode**: Toggle in settings, traces to the browser console (F12). No server access needed.
 
 ## Who It's For
 

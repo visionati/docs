@@ -109,8 +109,8 @@ When WooCommerce is active, the plugin adds a **Visionati** meta box to the prod
 
 1. Set a featured image on the product
 2. Click **Generate Descriptions** in the Visionati meta box
-3. Preview the short and long descriptions
-4. Click **Apply to Product** to save them, or **Discard** to throw them away
+3. Preview the short and long descriptions. Each has its own **Apply** button.
+4. Click **Apply** on either description to save just that field, or **Apply to Product** to save both. **Discard** clears everything.
 
 The plugin makes two API calls per product: one for the short description (2-3 sentences, plain text) and one for the long description (multiple paragraphs, HTML formatted). Both run in parallel, so generation is fast.
 
