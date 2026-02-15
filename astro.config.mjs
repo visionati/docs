@@ -59,6 +59,10 @@ export default defineConfig({
           autogenerate: { directory: 'content-analyzer' },
         },
         {
+          label: 'Figma Plugin',
+          autogenerate: { directory: 'figma-plugin' },
+        },
+        {
           label: 'WordPress Plugin',
           autogenerate: { directory: 'wordpress' },
         },
