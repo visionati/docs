@@ -7,6 +7,8 @@ sidebar:
 
 The Visionati Figma plugin generates alt text, captions, and descriptions for images in your designs, then writes them as color-coded annotations visible in Dev Mode during developer handoff.
 
+![Visionati Figma plugin showing generated alt text, captions, and descriptions for two images](../../../assets/images/figma-hero.webp)
+
 ## Why Use It
 
 Designers hand off Figma files with empty alt text. Developers ship it that way. Accessibility gets skipped not because anyone decided to skip it, but because nobody wrote the copy at the design phase.
