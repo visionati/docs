@@ -56,4 +56,4 @@ The plugin itself is free. You pay for Visionati API credits when you generate d
 
 ## Get the Plugin
 
-The plugin will be available on the [Figma Community](https://www.figma.com/community) plugin directory. See [Usage](/figma-plugin/usage/) for installation and setup instructions.
+Install Visionati from the [Figma Community](https://www.figma.com/community/plugin/1605062423418694180/visionati) plugin directory. See [Usage](/figma-plugin/usage/) for setup and getting started.

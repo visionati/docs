@@ -7,9 +7,13 @@ sidebar:
 
 ## Installation
 
-The plugin will be published to the [Figma Community](https://www.figma.com/community) plugin directory. Once published, search for "Visionati" in Figma and click **Install**.
+1. Open the <a href="https://www.figma.com/community/plugin/1605062423418694180/visionati" target="_blank" rel="noopener">Visionati plugin page</a> on the Figma Community
+2. Click **Install**
+3. The plugin is now available in any Figma file under **Plugins → Visionati**
 
-To install during development (before Community publication):
+### Installing from Source
+
+If you want to run a development build instead of the Community version:
 
 1. Download or clone the <a href="https://github.com/visionati/visionati-figma" target="_blank" rel="noopener">plugin repository</a>
 2. In Figma desktop, go to **Plugins → Development → Import plugin from manifest**
