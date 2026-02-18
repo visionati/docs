@@ -25,7 +25,7 @@ The Visionati API returns errors as JSON with an `error` key. Always check for t
 | `No credits.` | Your account has zero credits remaining. |
 | `Insufficient credits.` | You don't have enough credits for this request. Reduce backends/features or purchase more credits. |
 | `Invalid request format.` | The request body could not be parsed. Check your JSON syntax. |
-| `Request ID [id] not found.` | The async request ID does not exist or has expired. |
+| `Request ID [id] not found.` | The async request ID does not exist or has expired. Results are available for 24 hours after completion. |
 | `Request failed` | An error occurred during processing. The specific backend error is included in the message. |
 
 ## Backend Errors

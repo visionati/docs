@@ -18,7 +18,7 @@ GET requests with query parameters are also supported, but POST with a JSON body
 | Parameter | Required | Default | Description |
 |-----------|----------|---------|-------------|
 | `url` | No | — | URL of the image or video to analyze. Pass a string for one, or an array for multiple. Videos and multiple URLs return an async response. |
-| `file` | No | — | Base64 value or Data URI of an image/video file. Pass a string for one, or an array for multiple. |
+| `file` | No | — | Base64 value or Data URI of an image/video file. Pass a string for one, or an array for multiple. **File uploads are always processed asynchronously**, even for a single file. |
 | `file_name` | No | — | Uploaded file name. String or array. |
 | `backend` | No | all defaults | AI backend(s) to use. String or array. See [AI Backends](/reference/backends/) for valid values. |
 | `feature` | No | all | Feature(s) to enable. String or array. See [Features](/reference/features/) for valid values. |
@@ -28,6 +28,24 @@ GET requests with query parameters are also supported, but POST with a JSON body
 | `tag_score` | No | 0.9 | Minimum tag confidence score. Float between 0 and 1. |
 | `capture_interval` | No | 1 | Seconds between video frame captures. Integer greater than 0. |
 | `max_frames` | No | 3 | Maximum video frames to process. Set to 0 for no limit. |
+
+## Sync vs Async Responses
+
+Not every request returns results immediately. Depending on what you send, the API returns either a **synchronous** response (results included) or an **asynchronous** response (poll for results).
+
+| You Send | Response Type |
+|----------|---------------|
+| Single image URL | **Sync** — results returned immediately |
+| Single base64 file | **Async** — poll for results |
+| Multiple URLs | **Async** — poll for results |
+| Multiple files | **Async** — poll for results |
+| Video (URL or file) | **Async** — poll for results |
+
+**How to tell which response you got:** Check the `status` field. A synchronous response has `status: "completed"` with results in the `all` key, or `status: "failed"` with an `error` message. An asynchronous response has `status: "queued"` and a `response_uri` to poll. While polling, the status progresses from `"queued"` to `"processing"` to `"completed"` (or `"failed"`). See [Async Responses](/api/async-responses/) for polling details and code examples.
+
+:::caution
+Base64 file uploads are **always async**, even for a single image. This is the most common integration mistake. If you're uploading files instead of passing URLs, your code must handle polling.
+:::
 
 ## Limits
 
