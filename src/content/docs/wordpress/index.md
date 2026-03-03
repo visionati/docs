@@ -55,4 +55,8 @@ Visionati uses a credit-based system. Cost depends on which AI model you choose.
 
 ## Get the Plugin
 
-Download from <a href="https://github.com/visionati/visionati-wordpress" target="_blank" rel="noopener">GitHub</a>. Click **Code → Download ZIP**, then install via **Plugins → Add New Plugin → Upload Plugin** in WordPress. See [Usage](/wordpress/usage/) for step-by-step instructions.
+Install directly from the WordPress Plugin Directory: go to **Plugins → Add New Plugin** in WordPress and search for "Visionati". Or download from <a href="https://wordpress.org/plugins/visionati/" target="_blank" rel="noopener">wordpress.org/plugins/visionati</a>.
+
+Source code is available on <a href="https://github.com/visionati/visionati-wordpress" target="_blank" rel="noopener">GitHub</a>.
+
+See [Usage](/wordpress/usage/) for step-by-step instructions.

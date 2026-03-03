@@ -7,11 +7,11 @@ sidebar:
 
 ## Installation
 
-1. Download the latest release from <a href="https://github.com/visionati/visionati-wordpress" target="_blank" rel="noopener">GitHub</a> (click **Code → Download ZIP**)
-2. In WordPress, go to **Plugins → Add New Plugin → Upload Plugin**
-3. Upload the ZIP file and click **Install Now**
-4. Activate the plugin
-5. Go to **Settings → Visionati**
+1. In WordPress, go to **Plugins → Add New Plugin** and search for **Visionati**
+2. Click **Install Now**, then **Activate**
+3. Go to **Settings → Visionati**
+
+Alternatively, download the ZIP from <a href="https://github.com/visionati/visionati-wordpress" target="_blank" rel="noopener">GitHub</a> and install via **Plugins → Add New Plugin → Upload Plugin**.
 
 ## Setup
 
