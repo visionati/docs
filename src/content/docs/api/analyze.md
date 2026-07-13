@@ -84,11 +84,11 @@ curl -X POST "https://api.visionati.com/api/fetch" \
         "name": "https://example.com/photo.jpg",
         "tags": {
           "sculpture": [
-            { "name": "sculpture", "score": 0.9821, "source": "clarifai" },
+            { "name": "sculpture", "score": 0.9821, "source": "rekognition" },
             { "name": "sculpture", "score": 0.8460, "source": "googlevision" }
           ],
           "temple": [
-            { "name": "temple", "score": 0.9730, "source": "clarifai" },
+            { "name": "temple", "score": 0.9730, "source": "rekognition" },
             { "name": "temple", "score": 0.7803, "source": "googlevision" }
           ]
         },
@@ -106,8 +106,8 @@ curl -X POST "https://api.visionati.com/api/fetch" \
           ]
         },
         "nsfw": [
-          { "label": "sfw", "score": 0.9802, "source": "clarifai" },
-          { "label": "nsfw", "score": 0.0197, "source": "clarifai" },
+          { "label": "sfw", "score": 0.9802, "source": "rekognition" },
+          { "label": "nsfw", "score": 0.0197, "source": "rekognition" },
           { "label": "adult", "likelihood": "UNLIKELY", "source": "googlevision" },
           { "label": "violence", "likelihood": "UNLIKELY", "source": "googlevision" }
         ],

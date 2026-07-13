@@ -12,11 +12,11 @@ Features control what type of analysis is performed. By default, all features ar
 | Feature | Description | Backends |
 |---------|-------------|----------|
 | `descriptions` | AI-generated text about the image | All [LLM backends](/reference/backends/#description-backends-llms) |
-| `tags` | Object/concept labels with confidence scores | Clarifai, Imagga, Google Vision, Rekognition |
+| `tags` | Object/concept labels with confidence scores | Imagga, Google Vision, Rekognition |
 | `colors` | Dominant colors with hex values and RGB | Google Vision |
 | `faces` | Face detection with emotions, age, gender | Google Vision, Rekognition |
 | `texts` | OCR text extraction with bounding boxes | Google Vision |
-| `nsfw` | Content moderation scores | Clarifai, Imagga, Google Vision, Rekognition |
+| `nsfw` | Content moderation scores | Imagga, Google Vision, Rekognition |
 | `brands` | Logo and brand detection | Google Vision |
 
 ## Selecting Features

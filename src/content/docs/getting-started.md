@@ -35,7 +35,7 @@ The **Content Analyzer** uses your logged-in session, so no API key is needed th
 
 ## Configure Your Backends
 
-By default, Visionati enables seven AI backends: Claude, Gemini, Grok, OpenAI, Clarifai, Google Vision, and Rekognition. You can change which backends are active in your account settings.
+By default, Visionati enables six AI backends: Claude, Gemini, Grok, OpenAI, Google Vision, and Rekognition. You can change which backends are active in your account settings.
 
 See [AI Backends](/reference/backends/) for the full list and per-feature costs.
 

@@ -27,7 +27,6 @@ These detect tags, faces, colors, text, brands, and NSFW content.
 
 | Backend | Tags | NSFW | Faces | Colors | Brands | Texts |
 |---------|------|------|-------|--------|--------|-------|
-| `clarifai` | 0.15 cents | 0.15 cents | — | — | — | — |
 | `googlevision` | 0.2 cents | 0.2 cents | 0.2 cents | 0.2 cents | 0.2 cents | 0.2 cents |
 | `imagga` | 0.15 cents | 0.15 cents | — | — | — | — |
 | `rekognition` | 0.15 cents | 0.15 cents | 0.15 cents | — | — | — |
@@ -36,10 +35,10 @@ These detect tags, faces, colors, text, brands, and NSFW content.
 
 When no `backend` parameter is specified, the following backends are enabled:
 
-**Claude, Gemini, Grok, OpenAI, Clarifai, Google Vision, Rekognition**
+**Claude, Gemini, Grok, OpenAI, Google Vision, Rekognition**
 
 To use a different set, pass the `backend` or `backend[]` parameter with the values you want. Jina AI, LLaVA, BakLLaVA, and Imagga are available but not enabled by default and must be explicitly requested.
 
 ## All Valid Backend Values
 
-`bakllava`, `clarifai`, `claude`, `gemini`, `googlevision`, `grok`, `imagga`, `jinaai`, `llava`, `openai`, `rekognition`
+`bakllava`, `claude`, `gemini`, `googlevision`, `grok`, `imagga`, `jinaai`, `llava`, `openai`, `rekognition`

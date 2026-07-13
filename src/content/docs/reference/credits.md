@@ -11,10 +11,10 @@ The Visionati API runs on a credit system. One credit equals one cent. Credits a
 
 Each backend charges per feature it supports. The total credit cost for a request is the sum of all active backend-feature combinations.
 
-For example, if you enable **Clarifai** (tags: 0.15 cents, NSFW: 0.15 cents) and **OpenAI** (descriptions: 2 cents), a request with all features enabled would cost:
+For example, if you enable **Rekognition** (tags: 0.15 cents, NSFW: 0.15 cents) and **OpenAI** (descriptions: 2 cents), a request with all features enabled would cost:
 
-- Clarifai tags: 0.15
-- Clarifai NSFW: 0.15
+- Rekognition tags: 0.15
+- Rekognition NSFW: 0.15
 - OpenAI descriptions: 2.00
 - **Total: 2.30 cents (3 credits)**
 

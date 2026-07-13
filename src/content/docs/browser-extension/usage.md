@@ -48,7 +48,7 @@ All settings are configured in the extension options page. They apply to every s
 
 The extension enables the following backends by default:
 
-**Claude, Gemini, Grok, OpenAI, Clarifai, Google Vision, Rekognition**
+**Claude, Gemini, Grok, OpenAI, Google Vision, Rekognition**
 
 You can enable or disable any backend in the options page. See [AI Backends](/reference/backends/) for details on each service.
 

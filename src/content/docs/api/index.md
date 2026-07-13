@@ -9,7 +9,7 @@ The Visionati API lets you analyze images and videos with multiple AI services t
 
 ## Why Use It
 
-Every AI service has blind spots. Google Vision might catch the landmark but miss the mood. OpenAI nails the description but doesn't extract text. Clarifai tags objects that others overlook. The Visionati API runs them all and gives you every perspective in one response.
+Every AI service has blind spots. Google Vision might catch the landmark but miss the mood. OpenAI nails the description but doesn't extract text. Rekognition tags objects that others overlook. The Visionati API runs them all and gives you every perspective in one response.
 
 One API key, one endpoint, one response format. You pick which backends and features to enable, and only pay for what you use.
 
